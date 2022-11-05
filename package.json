@@ -1,5 +1,5 @@
 {
-  "name": "shop-angular-be",
+  "name": "simple-lambda-telegram-bot",
   "version": "1.0.0",
   "description": "Serverless aws-nodejs-typescript template",
   "main": "serverless.ts",
