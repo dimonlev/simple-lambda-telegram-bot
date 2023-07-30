@@ -7,7 +7,7 @@ export default {
     {
       http: {
         method: 'post',
-        path: 'getreply',
+        path: 'getcurrency',
         cors: true,
       },
     },
