@@ -4,7 +4,7 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
-const { TELEGRAM_TOKEN, CURR_LINK } = process.env;
+const { TELEGRAM_TOKEN, CURR_LINK, CHAT_ID } = process.env;
 
 const serverlessConfiguration: AWS = {
   service: 'simple-shopping-bot-2',
@@ -29,6 +29,7 @@ const serverlessConfiguration: AWS = {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
       TELEGRAM_URI: `https://api.telegram.org/bot${TELEGRAM_TOKEN}`,
       CURR_LINK,
+      CHAT_ID
     },
     lambdaHashingVersion: '20201221',
   },
